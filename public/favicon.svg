@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3" />
+      <stop offset="25%" stop-color="#F5D061" />
+      <stop offset="60%" stop-color="#DE9F18" />
+      <stop offset="100%" stop-color="#8C5C00" />
+    </linearGradient>
+    <linearGradient id="goldLight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2AE29" />
+      <stop offset="40%" stop-color="#FFFCE5" />
+      <stop offset="80%" stop-color="#F5D061" />
+      <stop offset="100%" stop-color="#B37805" />
+    </linearGradient>
+    <radialGradient id="globe" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#2D3035" />
+      <stop offset="60%" stop-color="#15171A" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background circle for high contrast browser tab -->
+  <circle cx="250" cy="250" r="240" fill="#0A0B0D" stroke="url(#gold)" stroke-width="8" />
+
+  <!-- Vertical Stem of B -->
+  <rect x="135" y="80" width="70" height="340" fill="url(#gold)" />
+  <polygon points="105,80 205,80 205,110 155,110 135,90" fill="url(#goldLight)" />
+  <polygon points="105,420 205,420 205,390 155,390 135,410" fill="url(#gold)" />
+
+  <!-- Upper Lobe of B -->
+  <path d="M 205 80 L 290 80 C 345 80, 385 110, 385 160 C 385 210, 345 235, 290 235 L 205 235 Z" fill="url(#goldLight)" />
+  <path d="M 205 125 L 280 125 C 310 125, 328 140, 328 160 C 328 180, 310 195, 280 195 L 205 195 Z" fill="#0A0B0D" />
+
+  <!-- Lower Lobe of B - 100% Solid Gold -->
+  <path d="M 205 225 L 310 225 C 375 225, 425 265, 425 325 C 425 385, 375 420, 310 420 L 205 420 Z" fill="url(#gold)" />
+  <path d="M 205 275 L 295 275 C 340 275, 365 298, 365 325 C 365 355, 340 375, 295 375 L 205 375 Z" fill="#0A0B0D" />
+
+  <!-- Globe nestled inside lower loop -->
+  <circle cx="280" cy="330" r="68" fill="url(#globe)" stroke="url(#gold)" stroke-width="2.5" />
+  <ellipse cx="280" cy="330" rx="68" ry="34" fill="none" stroke="#D89E19" stroke-width="1.2" stroke-opacity="0.6" />
+  <ellipse cx="280" cy="330" rx="34" ry="68" fill="none" stroke="#D89E19" stroke-width="1.2" stroke-opacity="0.6" />
+  <line x1="212" y1="330" x2="348" y2="330" stroke="#F5D061" stroke-width="1.4" />
+
+  <!-- Swoosh Orbit -->
+  <path d="M 70 340 C 60 300, 95 240, 175 200 C 255 160, 360 145, 420 135 C 360 160, 260 190, 185 240 C 120 280, 95 330, 115 365 Z" fill="url(#goldLight)" />
+
+  <!-- Soaring Gold Airplane -->
+  <g transform="translate(418, 140) rotate(42) scale(1.1)">
+    <path d="M 0 -34 C 2 -34, 5 -20, 5 -6 L 30 10 L 28 16 L 5 9 L 4 24 L 13 31 L 11 36 L 0 32 L -11 36 L -13 31 L -4 24 L -5 9 L -28 16 L -30 10 L -5 -6 C -5 -20, -2 -34, 0 -34 Z" fill="url(#goldLight)" />
+  </g>
+</svg>
