@@ -1,0 +1,6 @@
+{
+  "name": "Balcad Travel Agency",
+  "description": "Premium customer-facing travel agency website for Balcad Travel Agency. Request flights, visas, hotels, Umrah & Hajj, tours and more with gold and black luxury design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
